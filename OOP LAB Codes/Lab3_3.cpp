@@ -42,9 +42,9 @@ int main()
         cout<<"Call by reference: ";
         swap3(a,b);
         cout<<endl;
-        // cout<<"Call by address: ";
-        // swap2(&a,&b);
+        cout<<"Call by address: ";
+        swap2(&a,&b);
 
+        return 0;
 
 }
-
