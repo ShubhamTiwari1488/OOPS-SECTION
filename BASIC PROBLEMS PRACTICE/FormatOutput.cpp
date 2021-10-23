@@ -8,7 +8,7 @@ using namespace std;
 int main()
 {
  
- cout<<setw(10)<<right<<setpricision(2)<<1.345345;
+ cout<<setw(10)<<right<<setprecision(2)<<1.345345;
  
  cout<<endl;
  
