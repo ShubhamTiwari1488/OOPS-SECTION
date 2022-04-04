@@ -1,5 +1,4 @@
-#include<iostream>
-#include<vector>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main()
@@ -17,7 +16,7 @@ int main()
   
   cout<<g1.back()<<endl;
   
-  int *pos = g1.data; //Pointer to first element
+  int *pos = g1.data(); //Pointer to first element
   
   cout<<*pos<<endl;
   
