@@ -28,11 +28,7 @@ int main()
  
  cout<<"\nBack queue : "<<qe.back()<<endl;
  
- cout<<"\n=================================\n";
- 
- cout<<"\nDequeue Operation : "<<endl;
- 
- cout<<"\n=================================\n";
+ //Dequeue Operations
  
  while(!qe.empty())
  {
