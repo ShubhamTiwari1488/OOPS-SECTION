@@ -12,7 +12,7 @@ int main()
   
   cout<<a<<" "<<b<<endl;
   
-  pair<int,int> pair2={3,4};
+  pair<int,int> pair2=make_pair(3,4};
   
   tie(a,ignore) = pair2;
   
