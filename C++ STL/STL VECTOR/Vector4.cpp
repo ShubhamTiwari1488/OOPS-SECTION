@@ -26,14 +26,14 @@ int main()
   v.emplace(v.begin(),5);
   
   //Insert 20 at the end
-  v.emplace_end(20);
+  v.emplace_back(20);
   
   //Erase the vector
   v.clear();
   
   cout<<v.size()<<endl;
   
-  v1.swap(v2);  //Swap v1 & v2
+  /* v1.swap(v2);  //Swap v1 & v2 */
   
   return 0;
 }
