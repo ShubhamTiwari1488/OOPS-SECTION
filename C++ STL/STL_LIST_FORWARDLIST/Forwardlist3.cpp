@@ -18,8 +18,8 @@ int main()
 	ptr = flist.insert_after(flist.begin(), { 1, 2, 3 });
 
 	// Displaying the forward list
-	cout << "The forward list after insert_after operation "
-			": ";
+	cout << "The forward list after insert_after operation : ";
+	
 	for (int& c : flist)
 		cout << c << " ";
 	cout << endl;
@@ -29,19 +29,19 @@ int main()
 	ptr = flist.emplace_after(ptr, 2);
 
 	// Displaying the forward list
-	cout << "The forward list after emplace_after "
-			"operation : ";
+	cout << "The forward list after emplace_after operation : ";
+	
 	for (int& c : flist)
 		cout << c << " ";
 	cout << endl;
 
-	// Deleting value using erase.after Deleted 2
-	// after ptr
+	// Deleting value using erase_after
+	//Deleted 2 after ptr
 	ptr = flist.erase_after(ptr);
 
 	// Displaying the forward list
-	cout << "The forward list after erase_after operation "
-			": ";
+	cout << "The forward list after erase_after operation : ";
+	
 	for (int& c : flist)
 		cout << c << " ";
 	cout << endl;
