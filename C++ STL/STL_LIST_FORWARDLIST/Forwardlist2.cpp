@@ -15,8 +15,8 @@ int main()
 	flist.push_front(60);
 
 	// Displaying the forward list
-	cout
-		<< "The forward list after push_front operation : ";
+	cout<< "The forward list after push_front operation : ";
+	
 	for (int& c : flist)
 		cout << c << " ";
 	cout << endl;
@@ -26,8 +26,8 @@ int main()
 	flist.emplace_front(70);
 
 	// Displaying the forward list
-	cout << "The forward list after emplace_front "
-			"operation : ";
+	cout << "The forward list after emplace_front operation : ";
+	
 	for (int& c : flist)
 		cout << c << " ";
 	cout << endl;
