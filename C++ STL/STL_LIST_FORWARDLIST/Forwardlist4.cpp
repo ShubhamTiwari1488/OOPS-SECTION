@@ -18,8 +18,8 @@ int main()
 	flist2.splice_after(flist2.begin(), flist1);
 
 	// Displaying the forward list
-	cout << "The forward list after splice_after operation "
-			": ";
+	cout << "The forward list after splice_after operation : ";
+	
 	for (int& c : flist2)
 		cout << c << " ";
 	cout << endl;
